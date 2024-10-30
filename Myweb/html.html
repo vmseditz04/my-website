@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to Bake a Cake</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Website Title Section -->
+  <header>
+    <h1>How to Bake a Classic Cake</h1>
+  </header>
+
+  <!-- Introductory Section: What is Cake? -->
+  <section id="about">
+    <h2>What is Cake?</h2>
+    <p>A cake is a sweet dessert made from simple ingredients like flour, sugar, and eggs. It’s a treat enjoyed worldwide, especially on special occasions!              </p>
+    <img src="/Users/SOUNDARYAA/Desktop/cake/cakes.jpeg" alt="cake">
+  </section>
+
+  <!-- Recipe Overview with Video -->
+  <section id="recipe-overview">
+    <h2>Recipe Overview</h2>
+    <p>Follow this step-by-step guide to bake a perfect cake!</p>
+    <iframe width="560" height="315" src="/Users/SOUNDARYAA/Desktop/cake/World's Easiest Chocolate Cake .mp4" title="Cake Baking Video" allowfullscreen></iframe>
+  </section>
+
+  <!-- Ingredients Section -->
+  <section id="ingredients">
+    <h2>Ingredients</h2>
+    <div class="ingredient-list">
+      <div class="ingredient" title="2 cups of flour">
+        <img src="/Users/SOUNDARYAA/Desktop/cake/flour.jpeg" alt="Flour">
+        <span>Flour</span>
+      </div>
+      <div class="ingredient" title="1 cup of sugar">
+        <img src="/Users/SOUNDARYAA/Desktop/cake/sugar.jpeg" alt="Sugar">
+        <span>Sugar</span>
+      </div>
+      <div class="ingredient" title="1/2 cup of butter">
+        <img src="/Users/SOUNDARYAA/Desktop/cake/butter.jpeg" alt="Butter">
+        <span>Butter</span>
+      </div>
+      <div class="ingredient" title="2 eggs">
+        <img src="/Users/SOUNDARYAA/Desktop/cake/eggs.jpeg" alt="Eggs">
+        <span>Eggs</span>
+      </div>
+      <div class="ingredient" title="1 cup of milk">
+        <img src="/Users/SOUNDARYAA/Desktop/cake/milk.jpeg" alt="Milk">
+        <span>Milk</span>
+      </div>
+      <div class="ingredient" title="1 tbsp of baking powder">
+        <img src="/Users/SOUNDARYAA/Desktop/cake/baking powder.jpeg" alt="Baking Powder">
+        <span>Baking Powder</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Directions Section -->
+  <section id="directions">
+    <h2>Directions</h2>
+    <div id="steps"></div>
+    <div class="navigation">
+      <button onclick="prevStep()">Previous</button>
+      <button onclick="nextStep()">Next</button>
+    </div>
+  </section>
+
+  <script src="index.js"></script>
+</body>
+</html>
